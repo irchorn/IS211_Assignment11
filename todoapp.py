@@ -30,7 +30,7 @@ def submit():
     return redirect(url_for('display_list'))
 
 
-@app.route('/clear', methods=["DELETE"])
+@app.route('/clear')
 def clear():
     global todo_list
 
