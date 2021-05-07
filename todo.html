@@ -12,7 +12,7 @@
         <td width="250px">Email</td>
         <td width="250px">Priority</td>
     </tr>
-    {% for task in todo_list %}
+    {% for task in things_todo %}
     <tr>
         <td width="250px">{{task[0]}}</td>
         <td width="250px">{{task[1]}}</td>
@@ -50,7 +50,7 @@
             <td rowspan="2"><input type="submit" value="Submit"></td>
         </tr>
     </table>
-    <a href="?" class="btn btn-default">Clear</a>
+    <a href="Clear" class="btn btn-default">Clear</a>
 </form>
 
 </body>
